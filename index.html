@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AETHRYA · Aethrya Lore Wiki</title>
+  <meta name="description" content="In a world where gods walk among mortals in mortal disguise, every stranger might be divine — and every choice you make is watched by eyes older than civil">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body data-page="home" data-label="Guides" data-title="AETHRYA">
+  <div class="progress" id="progress"></div>
+  <button class="mobile-menu" id="mobileMenu" aria-label="Open navigation">☰</button>
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+    <div class="sidebar__brand">
+      <a class="brand" href="index.html">
+        <span class="brand__sigil">✦</span>
+        <span>
+          <strong>Aethrya</strong>
+          <small>The Veil of the Living Gods</small>
+        </span>
+      </a>
+      <button class="icon-btn sidebar__close" id="sidebarClose" aria-label="Close navigation">✕</button>
+    </div>
+    <div class="sidebar__search">
+      <label class="sr-only" for="globalSearch">Search the wiki</label>
+      <input id="globalSearch" class="search-input" type="search" placeholder="Search lore, factions, classes..."/>
+      <div class="search-results" id="searchResults"></div>
+    </div>
+    <details class="nav-group" open><summary>Guides</summary><ul><li><a class="nav-link  active" href="index.html" data-slug="home">Home</a></li><li><a class="nav-link  " href="new-player.html" data-slug="new-player">New Player Guide</a></li><li><a class="nav-link  " href="rp-guide.html" data-slug="rp-guide">Roleplay Guide</a></li><li><a class="nav-link  " href="staff.html" data-slug="staff">Staff Structure</a></li><li><a class="nav-link  " href="dm-guide.html" data-slug="dm-guide">Dungeon Master Guide</a></li></ul></details><details class="nav-group" open><summary>Rules</summary><ul><li><a class="nav-link  " href="rules-general.html" data-slug="rules-general">General Rules</a></li><li><a class="nav-link  " href="rules-combat.html" data-slug="rules-combat">Combat Rules</a></li><li><a class="nav-link  " href="rules-building.html" data-slug="rules-building">Building Rules</a></li><li><a class="nav-link  " href="rules-reroll.html" data-slug="rules-reroll">Reroll Rules</a></li><li><a class="nav-link  " href="rules-class-change.html" data-slug="rules-class-change">Class &amp; Profession Change</a></li><li><a class="nav-link  " href="rules-consequence.html" data-slug="rules-consequence">Consequence Rules</a></li><li><a class="nav-link  " href="rules-charm.html" data-slug="rules-charm">Charm &amp; Dominate</a></li><li><a class="nav-link  " href="rules-raid.html" data-slug="rules-raid">Infiltration &amp; Raid Rules</a></li><li><a class="nav-link  " href="rules-tracking.html" data-slug="rules-tracking">Tracking &amp; POIs</a></li><li><a class="nav-link  " href="rules-theft.html" data-slug="rules-theft">Theft Rules</a></li><li><a class="nav-link  " href="rules-disguise.html" data-slug="rules-disguise">Practical Disguise Rules</a></li><li><a class="nav-link  " href="rules-hub.html" data-slug="rules-hub">Hub Cities &amp; Guard</a></li></ul></details><details class="nav-group"><summary>Setting</summary><ul><li><a class="nav-link  " href="world.html" data-slug="world">World Overview</a></li><li><a class="nav-link  " href="geography.html" data-slug="geography">Geography &amp; Regions</a></li><li><a class="nav-link  " href="timeline.html" data-slug="timeline">Season Story Timeline</a></li><li><a class="nav-link  " href="factions-overview.html" data-slug="factions-overview">Factions Overview</a></li></ul></details><details class="nav-group"><summary>Systems</summary><ul><li><a class="nav-link  " href="language.html" data-slug="language">Languages</a></li><li><a class="nav-link  " href="magic.html" data-slug="magic">Magic &amp; The Weave</a></li><li><a class="nav-link  " href="professions-overview.html" data-slug="professions-overview">Professions Overview</a></li><li><a class="nav-link  " href="wounds.html" data-slug="wounds">Wounds</a></li></ul></details><details class="nav-group"><summary>Factions</summary><ul><li><a class="nav-link  " href="leilon.html" data-slug="leilon">Leilon</a></li><li><a class="nav-link  " href="phandalin.html" data-slug="phandalin">Phandalin</a></li><li><a class="nav-link  " href="southkrypt.html" data-slug="southkrypt">Southkrypt</a></li><li><a class="nav-link  " href="veilbreakers.html" data-slug="veilbreakers">The Veilbreakers</a></li><li><a class="nav-link  " href="silent-synod.html" data-slug="silent-synod">The Silent Synod</a></li><li><a class="nav-link  " href="hidden-flame.html" data-slug="hidden-flame">Order of the Hidden Flame</a></li><li><a class="nav-link  " href="spider-queen.html" data-slug="spider-queen">Children of the Spider Queen</a></li></ul></details><details class="nav-group"><summary>Classes</summary><ul><li><a class="nav-link  " href="classes.html" data-slug="classes">Classes Overview</a></li><li><a class="nav-link  " href="mastery.html" data-slug="mastery">Mastery Progression</a></li><li><a class="nav-link sub " href="class-fighter.html" data-slug="class-fighter">Fighter</a></li><li><a class="nav-link sub " href="class-wizard.html" data-slug="class-wizard">Wizard</a></li><li><a class="nav-link sub " href="class-cleric.html" data-slug="class-cleric">Cleric</a></li><li><a class="nav-link sub " href="class-paladin.html" data-slug="class-paladin">Paladin</a></li><li><a class="nav-link sub " href="class-rogue.html" data-slug="class-rogue">Rogue</a></li><li><a class="nav-link sub " href="class-ranger.html" data-slug="class-ranger">Ranger</a></li><li><a class="nav-link sub " href="class-bard.html" data-slug="class-bard">Bard</a></li><li><a class="nav-link sub " href="class-druid.html" data-slug="class-druid">Druid</a></li><li><a class="nav-link sub " href="class-warlock.html" data-slug="class-warlock">Warlock</a></li><li><a class="nav-link sub " href="class-monk.html" data-slug="class-monk">Monk</a></li><li><a class="nav-link sub " href="class-sorcerer.html" data-slug="class-sorcerer">Sorcerer</a></li><li><a class="nav-link sub " href="class-artificer.html" data-slug="class-artificer">Artificer</a></li><li><a class="nav-link sub " href="class-barbarian.html" data-slug="class-barbarian">Barbarian</a></li></ul></details><details class="nav-group"><summary>Races</summary><ul><li><a class="nav-link  " href="races.html" data-slug="races">Races Overview</a></li><li><a class="nav-link  " href="fabled-expectations.html" data-slug="fabled-expectations">Fabled Race Expectations</a></li><li><a class="nav-link sub " href="races-common.html" data-slug="races-common">Common Races</a></li><li><a class="nav-link sub " href="races-limited.html" data-slug="races-limited">Limited Races</a></li><li><a class="nav-link sub " href="races-fabled.html" data-slug="races-fabled">Fabled Races</a></li></ul></details><details class="nav-group"><summary>Pantheons</summary><ul><li><a class="nav-link  " href="pantheons.html" data-slug="pantheons">Pantheons Overview</a></li><li><a class="nav-link  " href="pantheon-race.html" data-slug="pantheon-race">The Pantheon Race</a></li><li><a class="nav-link sub " href="faerUnian.html" data-slug="faerUnian">Faerûnian Pantheon</a></li><li><a class="nav-link sub " href="seldarine.html" data-slug="seldarine">The Seldarine</a></li><li><a class="nav-link sub " href="dark-seldarine.html" data-slug="dark-seldarine">Dark Seldarine</a></li><li><a class="nav-link sub " href="morndinsamman.html" data-slug="morndinsamman">Morndinsamman</a></li><li><a class="nav-link sub " href="halfling-gods.html" data-slug="halfling-gods">Yondalla&#x27;s Children</a></li><li><a class="nav-link sub " href="gnome-gods.html" data-slug="gnome-gods">Lords of the Golden Hills</a></li><li><a class="nav-link sub " href="primordial-titans.html" data-slug="primordial-titans">Primordial Titans</a></li></ul></details><details class="nav-group"><summary>Spells &amp; Rituals</summary><ul><li><a class="nav-link  " href="spells.html" data-slug="spells">Spells Overview</a></li><li><a class="nav-link sub " href="spells-novice.html" data-slug="spells-novice">Novice Tier</a></li><li><a class="nav-link sub " href="spells-adept.html" data-slug="spells-adept">Adept Tier</a></li><li><a class="nav-link sub " href="spells-expert.html" data-slug="spells-expert">Expert Tier</a></li><li><a class="nav-link sub " href="spells-master.html" data-slug="spells-master">Master Tier</a></li><li><a class="nav-link sub " href="rituals.html" data-slug="rituals">Rituals</a></li></ul></details><details class="nav-group"><summary>Professions</summary><ul><li><a class="nav-link  " href="professions.html" data-slug="professions">Professions Index</a></li><li><a class="nav-link sub " href="prof-blacksmith.html" data-slug="prof-blacksmith">Blacksmith</a></li><li><a class="nav-link sub " href="prof-alchemist.html" data-slug="prof-alchemist">Alchemist</a></li><li><a class="nav-link sub " href="prof-herbalist.html" data-slug="prof-herbalist">Herbalist</a></li><li><a class="nav-link sub " href="prof-leatherworker.html" data-slug="prof-leatherworker">Leatherworker</a></li><li><a class="nav-link sub " href="prof-jeweler.html" data-slug="prof-jeweler">Jeweler</a></li><li><a class="nav-link sub " href="prof-cook.html" data-slug="prof-cook">Cook</a></li><li><a class="nav-link sub " href="prof-scholar.html" data-slug="prof-scholar">Scholar</a></li><li><a class="nav-link sub " href="prof-merchant.html" data-slug="prof-merchant">Merchant</a></li><li><a class="nav-link sub " href="prof-hunter.html" data-slug="prof-hunter">Hunter</a></li><li><a class="nav-link sub " href="prof-farmer.html" data-slug="prof-farmer">Farmer</a></li></ul></details><details class="nav-group"><summary>Support</summary><ul><li><a class="nav-link  " href="support.html" data-slug="support">Help &amp; FAQ</a></li><li><a class="nav-link  " href="feedback.html" data-slug="feedback">Feedback</a></li></ul></details><a class="wiki-link" href="wiki.html">Open full lore index →</a></aside>
+    <main class="main">
+      <header class="topbar">
+        <div class="breadcrumbs" id="breadcrumbs"></div>
+        <a href="wiki.html" class="topbar__cta">Lore Index</a>
+      </header>
+      <div class="article-layout">
+        <article class="article">
+          
+<section class="hero hero--landing">
+  <div class="hero__body">
+    <p class="eyebrow">Refactored Static Edition</p>
+    <h1>Aethrya, rebuilt as a modern lore wiki</h1>
+    <p class="hero__lead">A cleaner interface, separate pages, live search, guided navigation, and a maintainable static architecture—without losing the original dark-gold identity.</p>
+    <div class="hero__actions">
+      <a class="btn btn--primary" href="wiki.html">Browse the full wiki</a>
+      <a class="btn btn--ghost" href="new-player.html">Start with the new player guide</a>
+    </div>
+  </div>
+  <div class="hero__panel">
+    <div class="stat"><strong>80</strong><span>split pages</span></div>
+    <div class="stat"><strong>Live</strong><span>search & filters</span></div>
+    <div class="stat"><strong>Flat</strong><span>static file structure</span></div>
+  </div>
+</section>
+<section class="feature-grid">
+  <article class="feature-card"><h3>Improved design</h3><p>Cleaner spacing, better typography, focused article layouts, reading progress, table of contents, and stronger mobile behavior.</p></article>
+  <article class="feature-card"><h3>Proper static architecture</h3><p>Every section now lives on its own page with shared CSS, shared JavaScript, and a searchable index.</p></article>
+  <article class="feature-card"><h3>Interactive systems</h3><p>Global search, lore index filters, breadcrumbs, previous/next navigation, and generated on-page heading navigation.</p></article>
+  <article class="feature-card"><h3>Optimized codebase</h3><p>Inline styles and scripts were separated into maintainable assets, and the old SPA-style section swapping was removed.</p></article>
+</section>
+
+<div class="hero">
+<div class="hero-bg-art"></div>
+<div class="hero-ornament">The Veil of the Living Gods</div>
+<h1 class="hero-title gold-shimmer">AETHRYA</h1>
+<p class="hero-subtitle">A Conan Exiles · 5e Text Roleplay Server</p>
+<p class="hero-tagline">In a world where gods walk among mortals in mortal disguise, every stranger might be divine — and every choice you make is watched by eyes older than civilization.</p>
+<div class="hero-divider">✦</div>
+<div class="hero-cta">
+<a class="btn-primary" href="new-player.html">Begin Your Journey →</a>
+<a class="btn-secondary" href="world.html">Explore the Lore</a>
+</div>
+<div class="hero-stats">
+<div class="hero-stat">
+<span class="hero-stat-num">175</span>
+<span class="hero-stat-label">Lore Pages</span>
+</div>
+<div class="hero-stat">
+<span class="hero-stat-num">13</span>
+<span class="hero-stat-label">Classes</span>
+</div>
+<div class="hero-stat">
+<span class="hero-stat-num">47</span>
+<span class="hero-stat-label">Playable Races</span>
+</div>
+<div class="hero-stat">
+<span class="hero-stat-num">30+</span>
+<span class="hero-stat-label">Deities</span>
+</div>
+</div>
+</div>
+<div class="content-wrap">
+<div class="accord-banner">
+<p>The gods do not rule openly. They walk among you — merchant, soldier, scholar, stranger. The Veil Accord forbids divine intervention in its oldest and most absolute form. What remains is the cold war of mortal institutions, hidden agendas, and the terrible patience of immortal beings playing a very long game.</p>
+</div>
+<h2 class="section-heading reveal">What Is Aethrya?</h2>
+<div class="prose reveal">
+<p>Aethrya is an immersive, narrative-driven 5e Dungeons &amp; Dragons roleplay experience set within a Conan Exiles persistent world. Here, characters do not simply adventure through a backdrop — they inhabit a living political landscape shaped by an ancient divine cold war, where the very gods of the Faerûnian Pantheon, the Seldarine, the Morndinsamman, and beyond walk the mortal world disguised as ordinary people.</p>
+<p>The world's central mystery — and its greatest tension — is the <strong>Veil Accord</strong>: the divine treaty that forbids the gods from revealing their true nature or exercising their full power openly. Every temple, every political institution, every mercenary order and arcane college is, in some measure, a piece on the board of an invisible divine game. Players are the ones who get to look behind the curtain.</p>
+</div>
+<div class="card-grid reveal">
+<div class="card">
+<span class="card-icon">🌍</span>
+<div class="card-title">Living World</div>
+<div class="card-text">A persistent Conan Exiles map where the divine cold war plays out through political events, faction conflict, and DM-driven story arcs.</div>
+</div>
+<div class="card">
+<span class="card-icon">⚔️</span>
+<div class="card-title">13 Classes</div>
+<div class="card-text">Full 5e class roster with deep mastery progression. Novice through Master — each tier unlocking new narrative possibilities.</div>
+</div>
+<div class="card">
+<span class="card-icon">✨</span>
+<div class="card-title">30+ Deities</div>
+<div class="card-text">Seven pantheons with full lore, mortal disguise identities, and player-available Pantheon Race applications.</div>
+</div>
+<div class="card">
+<span class="card-icon">🧝</span>
+<div class="card-title">47 Races</div>
+<div class="card-text">Common, Limited, and Fabled tiers. Every race has a defined place in Aethrya's divine politics and world ecology.</div>
+</div>
+<div class="card">
+<span class="card-icon">🏰</span>
+<div class="card-title">7 Factions</div>
+<div class="card-text">From Leilon's trade council to the Veilbreakers' investigation cells — each faction offers unique story threads.</div>
+</div>
+<div class="card">
+<span class="card-icon">🌀</span>
+<div class="card-title">The Weave</div>
+<div class="card-text">All magic flows through Mystra's divine framework. Spell Points, mastery tiers, and a system where every cast has a hidden witness.</div>
+</div>
+</div>
+<div class="section-ornament">✦ ✦ ✦</div>
+<h2 class="section-heading reveal">The Three Pillars of Aethrya</h2>
+<div class="prose reveal">
+<p><strong>Divine Intrigue.</strong> The gods are here. Tessara Wand is Mystra. Aldric Brand is Tempus. Kael Ironveil is Bane. These are not distant patrons — they are characters in the world, with mortal identities, mortal vulnerabilities, and the extraordinary pressure of maintaining a disguise before creatures who are slowly, inevitably becoming more capable of seeing through it.</p>
+<p><strong>Political Consequence.</strong> Aethrya does not hand players a stable world to adventure through. Every faction event, every power struggle, every DM arc has lasting consequence. The map changes. Institutions fall. Characters who act with genuine agency leave marks that persist through the season.</p>
+<p><strong>Earned Mastery.</strong> The Novice → Adept → Expert → Master progression is not a time gate — it is a narrative gate. Masters are expected to embody their class's highest expression. Every tier unlocks not just mechanical improvements but access to story threads, DM events, and world-shaping capability unavailable to newer characters.</p>
+</div>
+</div>
+
+<section class="quick-links">
+  <div class="section-header">
+    <p class="eyebrow">Explore by category</p>
+    <h2>Jump directly into the setting</h2>
+  </div>
+  <div class="quick-links__grid">
+    <a href="world.html" class="quick-link"><strong>World</strong><span>Setting, geography, timeline</span></a>
+    <a href="factions-overview.html" class="quick-link"><strong>Factions</strong><span>Institutions, power blocs, politics</span></a>
+    <a href="classes.html" class="quick-link"><strong>Classes</strong><span>Mastery, subclasses, progression</span></a>
+    <a href="races.html" class="quick-link"><strong>Races</strong><span>Common, limited, and fabled peoples</span></a>
+    <a href="pantheons.html" class="quick-link"><strong>Pantheons</strong><span>Gods, disguises, divine domains</span></a>
+    <a href="professions.html" class="quick-link"><strong>Professions</strong><span>Crafting and worldly expertise</span></a>
+  </div>
+</section>
+
+          <footer class="pager">
+            <span></span>
+            <a href="new-player.html" class="pager__link">New Player Guide →</a>
+          </footer>
+        </article>
+        <aside class="toc" id="toc"><div class="toc__inner"><h2>On this page</h2><nav id="tocNav"></nav></div></aside>
+      </div>
+      <footer class="site-footer">Aethrya Lore Wiki · Refactored static edition · <span id="year"></span></footer>
+    </main>
+  </div>
+  <script>window.__PAGE_META__ = {"slug": "home", "title": "AETHRYA", "label": "Guides"};</script>
+  <script src="app.js"></script>
+</body>
+</html>

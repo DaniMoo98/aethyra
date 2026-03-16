@@ -1,0 +1,571 @@
+{
+  "project": "Aethrya Lore Wiki",
+  "source": "Derived from uploaded aethrya.html",
+  "structure": "flat-root",
+  "files": [
+    {
+      "name": "app.js",
+      "type": "js",
+      "role": "script",
+      "description": "Generated static wiki asset"
+    },
+    {
+      "name": "class-artificer.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Class Artificer"
+    },
+    {
+      "name": "class-barbarian.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Class Barbarian"
+    },
+    {
+      "name": "class-bard.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Class Bard"
+    },
+    {
+      "name": "class-cleric.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Class Cleric"
+    },
+    {
+      "name": "class-druid.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Class Druid"
+    },
+    {
+      "name": "class-fighter.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Class Fighter"
+    },
+    {
+      "name": "class-monk.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Class Monk"
+    },
+    {
+      "name": "class-paladin.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Class Paladin"
+    },
+    {
+      "name": "class-ranger.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Class Ranger"
+    },
+    {
+      "name": "class-rogue.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Class Rogue"
+    },
+    {
+      "name": "class-sorcerer.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Class Sorcerer"
+    },
+    {
+      "name": "class-warlock.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Class Warlock"
+    },
+    {
+      "name": "class-wizard.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Class Wizard"
+    },
+    {
+      "name": "classes.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Classes"
+    },
+    {
+      "name": "dark-seldarine.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Dark Seldarine"
+    },
+    {
+      "name": "dm-guide.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Dm Guide"
+    },
+    {
+      "name": "fabled-expectations.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Fabled Expectations"
+    },
+    {
+      "name": "factions-overview.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Factions Overview"
+    },
+    {
+      "name": "faerUnian.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Faerunian"
+    },
+    {
+      "name": "feedback.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Feedback"
+    },
+    {
+      "name": "geography.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Geography"
+    },
+    {
+      "name": "gnome-gods.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Gnome Gods"
+    },
+    {
+      "name": "halfling-gods.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Halfling Gods"
+    },
+    {
+      "name": "hidden-flame.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Hidden Flame"
+    },
+    {
+      "name": "index.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Index"
+    },
+    {
+      "name": "language.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Language"
+    },
+    {
+      "name": "leilon.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Leilon"
+    },
+    {
+      "name": "magic.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Magic"
+    },
+    {
+      "name": "mastery.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Mastery"
+    },
+    {
+      "name": "morndinsamman.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Morndinsamman"
+    },
+    {
+      "name": "new-player.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for New Player"
+    },
+    {
+      "name": "pantheon-race.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Pantheon Race"
+    },
+    {
+      "name": "pantheons.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Pantheons"
+    },
+    {
+      "name": "phandalin.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Phandalin"
+    },
+    {
+      "name": "primordial-titans.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Primordial Titans"
+    },
+    {
+      "name": "prof-alchemist.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Prof Alchemist"
+    },
+    {
+      "name": "prof-blacksmith.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Prof Blacksmith"
+    },
+    {
+      "name": "prof-cook.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Prof Cook"
+    },
+    {
+      "name": "prof-farmer.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Prof Farmer"
+    },
+    {
+      "name": "prof-herbalist.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Prof Herbalist"
+    },
+    {
+      "name": "prof-hunter.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Prof Hunter"
+    },
+    {
+      "name": "prof-jeweler.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Prof Jeweler"
+    },
+    {
+      "name": "prof-leatherworker.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Prof Leatherworker"
+    },
+    {
+      "name": "prof-merchant.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Prof Merchant"
+    },
+    {
+      "name": "prof-scholar.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Prof Scholar"
+    },
+    {
+      "name": "profession-alchemist.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Profession Alchemist"
+    },
+    {
+      "name": "profession-blacksmith.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Profession Blacksmith"
+    },
+    {
+      "name": "profession-cook.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Profession Cook"
+    },
+    {
+      "name": "profession-herbalist.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Profession Herbalist"
+    },
+    {
+      "name": "profession-hunter.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Profession Hunter"
+    },
+    {
+      "name": "profession-merchant.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Profession Merchant"
+    },
+    {
+      "name": "profession-miner.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Profession Miner"
+    },
+    {
+      "name": "profession-quartermaster.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Profession Quartermaster"
+    },
+    {
+      "name": "profession-scholar.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Profession Scholar"
+    },
+    {
+      "name": "professions-overview.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Professions Overview"
+    },
+    {
+      "name": "professions.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Professions"
+    },
+    {
+      "name": "races-common.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Races Common"
+    },
+    {
+      "name": "races-fabled.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Races Fabled"
+    },
+    {
+      "name": "races-limited.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Races Limited"
+    },
+    {
+      "name": "races.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Races"
+    },
+    {
+      "name": "rituals.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Rituals"
+    },
+    {
+      "name": "rp-guide.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Rp Guide"
+    },
+    {
+      "name": "rules-building.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Rules Building"
+    },
+    {
+      "name": "rules-charm.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Rules Charm"
+    },
+    {
+      "name": "rules-class-change.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Rules Class Change"
+    },
+    {
+      "name": "rules-combat.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Rules Combat"
+    },
+    {
+      "name": "rules-consequence.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Rules Consequence"
+    },
+    {
+      "name": "rules-disguise.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Rules Disguise"
+    },
+    {
+      "name": "rules-general.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Rules General"
+    },
+    {
+      "name": "rules-hub.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Rules Hub"
+    },
+    {
+      "name": "rules-raid.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Rules Raid"
+    },
+    {
+      "name": "rules-reroll.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Rules Reroll"
+    },
+    {
+      "name": "rules-theft.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Rules Theft"
+    },
+    {
+      "name": "rules-tracking.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Rules Tracking"
+    },
+    {
+      "name": "search-index.json",
+      "type": "json",
+      "role": "data",
+      "description": "Generated static wiki asset"
+    },
+    {
+      "name": "seldarine.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Seldarine"
+    },
+    {
+      "name": "silent-synod.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Silent Synod"
+    },
+    {
+      "name": "southkrypt.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Southkrypt"
+    },
+    {
+      "name": "spells-adept.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Spells Adept"
+    },
+    {
+      "name": "spells-cantrip.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Spells Cantrip"
+    },
+    {
+      "name": "spells-expert.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Spells Expert"
+    },
+    {
+      "name": "spells-master.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Spells Master"
+    },
+    {
+      "name": "spells-novice.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Spells Novice"
+    },
+    {
+      "name": "spells.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Spells"
+    },
+    {
+      "name": "spider-queen.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Spider Queen"
+    },
+    {
+      "name": "staff.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Staff"
+    },
+    {
+      "name": "styles.css",
+      "type": "css",
+      "role": "stylesheet",
+      "description": "Generated static wiki asset"
+    },
+    {
+      "name": "support.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Support"
+    },
+    {
+      "name": "timeline.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Timeline"
+    },
+    {
+      "name": "veilbreakers.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Veilbreakers"
+    },
+    {
+      "name": "wiki.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Wiki"
+    },
+    {
+      "name": "world.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for World"
+    },
+    {
+      "name": "wounds.html",
+      "type": "html",
+      "role": "page",
+      "description": "Static page for Wounds"
+    }
+  ]
+}

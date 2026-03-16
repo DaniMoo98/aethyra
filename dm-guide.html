@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dungeon Master Guide · Aethrya Lore Wiki</title>
+  <meta name="description" content="How DM events work on Aethrya — how to request one, what to expect, and the craft of collaborative storytelling that separates a reactive encounter from a ">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;800&family=Cormorant+Garamond:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  
+</head>
+<body data-page="dm-guide" data-label="Guides" data-title="Dungeon Master Guide">
+  <div class="progress" id="progress"></div>
+  <button class="mobile-menu" id="mobileMenu" aria-label="Open navigation">☰</button>
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+    <div class="sidebar__brand">
+      <a class="brand" href="index.html">
+        <span class="brand__sigil">✦</span>
+        <span>
+          <strong>Aethrya</strong>
+          <small>The Veil of the Living Gods</small>
+        </span>
+      </a>
+      <button class="icon-btn sidebar__close" id="sidebarClose" aria-label="Close navigation">✕</button>
+    </div>
+    <div class="sidebar__search">
+      <label class="sr-only" for="globalSearch">Search the wiki</label>
+      <input id="globalSearch" class="search-input" type="search" placeholder="Search lore, factions, classes..."/>
+      <div class="search-results" id="searchResults"></div>
+    </div>
+    <details class="nav-group" open><summary>Guides</summary><ul><li><a class="nav-link  " href="index.html" data-slug="home">Home</a></li><li><a class="nav-link  " href="new-player.html" data-slug="new-player">New Player Guide</a></li><li><a class="nav-link  " href="rp-guide.html" data-slug="rp-guide">Roleplay Guide</a></li><li><a class="nav-link  " href="staff.html" data-slug="staff">Staff Structure</a></li><li><a class="nav-link  active" href="dm-guide.html" data-slug="dm-guide">Dungeon Master Guide</a></li></ul></details><details class="nav-group" open><summary>Rules</summary><ul><li><a class="nav-link  " href="rules-general.html" data-slug="rules-general">General Rules</a></li><li><a class="nav-link  " href="rules-combat.html" data-slug="rules-combat">Combat Rules</a></li><li><a class="nav-link  " href="rules-building.html" data-slug="rules-building">Building Rules</a></li><li><a class="nav-link  " href="rules-reroll.html" data-slug="rules-reroll">Reroll Rules</a></li><li><a class="nav-link  " href="rules-class-change.html" data-slug="rules-class-change">Class &amp; Profession Change</a></li><li><a class="nav-link  " href="rules-consequence.html" data-slug="rules-consequence">Consequence Rules</a></li><li><a class="nav-link  " href="rules-charm.html" data-slug="rules-charm">Charm &amp; Dominate</a></li><li><a class="nav-link  " href="rules-raid.html" data-slug="rules-raid">Infiltration &amp; Raid Rules</a></li><li><a class="nav-link  " href="rules-tracking.html" data-slug="rules-tracking">Tracking &amp; POIs</a></li><li><a class="nav-link  " href="rules-theft.html" data-slug="rules-theft">Theft Rules</a></li><li><a class="nav-link  " href="rules-disguise.html" data-slug="rules-disguise">Practical Disguise Rules</a></li><li><a class="nav-link  " href="rules-hub.html" data-slug="rules-hub">Hub Cities &amp; Guard</a></li></ul></details><details class="nav-group"><summary>Setting</summary><ul><li><a class="nav-link  " href="world.html" data-slug="world">World Overview</a></li><li><a class="nav-link  " href="geography.html" data-slug="geography">Geography &amp; Regions</a></li><li><a class="nav-link  " href="timeline.html" data-slug="timeline">Season Story Timeline</a></li><li><a class="nav-link  " href="factions-overview.html" data-slug="factions-overview">Factions Overview</a></li></ul></details><details class="nav-group"><summary>Systems</summary><ul><li><a class="nav-link  " href="language.html" data-slug="language">Languages</a></li><li><a class="nav-link  " href="magic.html" data-slug="magic">Magic &amp; The Weave</a></li><li><a class="nav-link  " href="professions-overview.html" data-slug="professions-overview">Professions Overview</a></li><li><a class="nav-link  " href="wounds.html" data-slug="wounds">Wounds</a></li></ul></details><details class="nav-group"><summary>Factions</summary><ul><li><a class="nav-link  " href="leilon.html" data-slug="leilon">Leilon</a></li><li><a class="nav-link  " href="phandalin.html" data-slug="phandalin">Phandalin</a></li><li><a class="nav-link  " href="southkrypt.html" data-slug="southkrypt">Southkrypt</a></li><li><a class="nav-link  " href="veilbreakers.html" data-slug="veilbreakers">The Veilbreakers</a></li><li><a class="nav-link  " href="silent-synod.html" data-slug="silent-synod">The Silent Synod</a></li><li><a class="nav-link  " href="hidden-flame.html" data-slug="hidden-flame">Order of the Hidden Flame</a></li><li><a class="nav-link  " href="spider-queen.html" data-slug="spider-queen">Children of the Spider Queen</a></li></ul></details><details class="nav-group"><summary>Classes</summary><ul><li><a class="nav-link  " href="classes.html" data-slug="classes">Classes Overview</a></li><li><a class="nav-link  " href="mastery.html" data-slug="mastery">Mastery Progression</a></li><li><a class="nav-link sub " href="class-fighter.html" data-slug="class-fighter">Fighter</a></li><li><a class="nav-link sub " href="class-wizard.html" data-slug="class-wizard">Wizard</a></li><li><a class="nav-link sub " href="class-cleric.html" data-slug="class-cleric">Cleric</a></li><li><a class="nav-link sub " href="class-paladin.html" data-slug="class-paladin">Paladin</a></li><li><a class="nav-link sub " href="class-rogue.html" data-slug="class-rogue">Rogue</a></li><li><a class="nav-link sub " href="class-ranger.html" data-slug="class-ranger">Ranger</a></li><li><a class="nav-link sub " href="class-bard.html" data-slug="class-bard">Bard</a></li><li><a class="nav-link sub " href="class-druid.html" data-slug="class-druid">Druid</a></li><li><a class="nav-link sub " href="class-warlock.html" data-slug="class-warlock">Warlock</a></li><li><a class="nav-link sub " href="class-monk.html" data-slug="class-monk">Monk</a></li><li><a class="nav-link sub " href="class-sorcerer.html" data-slug="class-sorcerer">Sorcerer</a></li><li><a class="nav-link sub " href="class-artificer.html" data-slug="class-artificer">Artificer</a></li><li><a class="nav-link sub " href="class-barbarian.html" data-slug="class-barbarian">Barbarian</a></li></ul></details><details class="nav-group"><summary>Races</summary><ul><li><a class="nav-link  " href="races.html" data-slug="races">Races Overview</a></li><li><a class="nav-link  " href="fabled-expectations.html" data-slug="fabled-expectations">Fabled Race Expectations</a></li><li><a class="nav-link sub " href="races-common.html" data-slug="races-common">Common Races</a></li><li><a class="nav-link sub " href="races-limited.html" data-slug="races-limited">Limited Races</a></li><li><a class="nav-link sub " href="races-fabled.html" data-slug="races-fabled">Fabled Races</a></li></ul></details><details class="nav-group"><summary>Pantheons</summary><ul><li><a class="nav-link  " href="pantheons.html" data-slug="pantheons">Pantheons Overview</a></li><li><a class="nav-link  " href="pantheon-race.html" data-slug="pantheon-race">The Pantheon Race</a></li><li><a class="nav-link sub " href="faerUnian.html" data-slug="faerUnian">Faerûnian Pantheon</a></li><li><a class="nav-link sub " href="seldarine.html" data-slug="seldarine">The Seldarine</a></li><li><a class="nav-link sub " href="dark-seldarine.html" data-slug="dark-seldarine">Dark Seldarine</a></li><li><a class="nav-link sub " href="morndinsamman.html" data-slug="morndinsamman">Morndinsamman</a></li><li><a class="nav-link sub " href="halfling-gods.html" data-slug="halfling-gods">Yondalla&#x27;s Children</a></li><li><a class="nav-link sub " href="gnome-gods.html" data-slug="gnome-gods">Lords of the Golden Hills</a></li><li><a class="nav-link sub " href="primordial-titans.html" data-slug="primordial-titans">Primordial Titans</a></li></ul></details><details class="nav-group"><summary>Spells &amp; Rituals</summary><ul><li><a class="nav-link  " href="spells.html" data-slug="spells">Spells Overview</a></li><li><a class="nav-link sub " href="spells-novice.html" data-slug="spells-novice">Novice Tier</a></li><li><a class="nav-link sub " href="spells-adept.html" data-slug="spells-adept">Adept Tier</a></li><li><a class="nav-link sub " href="spells-expert.html" data-slug="spells-expert">Expert Tier</a></li><li><a class="nav-link sub " href="spells-master.html" data-slug="spells-master">Master Tier</a></li><li><a class="nav-link sub " href="rituals.html" data-slug="rituals">Rituals</a></li></ul></details><details class="nav-group"><summary>Professions</summary><ul><li><a class="nav-link  " href="professions.html" data-slug="professions">Professions Index</a></li><li><a class="nav-link sub " href="prof-blacksmith.html" data-slug="prof-blacksmith">Blacksmith</a></li><li><a class="nav-link sub " href="prof-alchemist.html" data-slug="prof-alchemist">Alchemist</a></li><li><a class="nav-link sub " href="prof-herbalist.html" data-slug="prof-herbalist">Herbalist</a></li><li><a class="nav-link sub " href="prof-leatherworker.html" data-slug="prof-leatherworker">Leatherworker</a></li><li><a class="nav-link sub " href="prof-jeweler.html" data-slug="prof-jeweler">Jeweler</a></li><li><a class="nav-link sub " href="prof-cook.html" data-slug="prof-cook">Cook</a></li><li><a class="nav-link sub " href="prof-scholar.html" data-slug="prof-scholar">Scholar</a></li><li><a class="nav-link sub " href="prof-merchant.html" data-slug="prof-merchant">Merchant</a></li><li><a class="nav-link sub " href="prof-hunter.html" data-slug="prof-hunter">Hunter</a></li><li><a class="nav-link sub " href="prof-farmer.html" data-slug="prof-farmer">Farmer</a></li></ul></details><details class="nav-group"><summary>Support</summary><ul><li><a class="nav-link  " href="support.html" data-slug="support">Help &amp; FAQ</a></li><li><a class="nav-link  " href="feedback.html" data-slug="feedback">Feedback</a></li></ul></details><a class="wiki-link" href="wiki.html">Open full lore index →</a></aside>
+    <main class="main">
+      <header class="topbar">
+        <div class="breadcrumbs" id="breadcrumbs"></div>
+        <a href="wiki.html" class="topbar__cta">Lore Index</a>
+      </header>
+      <div class="article-layout">
+        <article class="article">
+          
+<div class="content-wrap">
+<div class="page-header">
+<span class="page-label">Guides</span>
+<h1 class="page-title">Dungeon Master Guide</h1>
+<p class="page-intro">How DM events work on Aethrya — how to request one, what to expect, and the craft of collaborative storytelling that separates a reactive encounter from a transformative narrative arc.</p>
+</div>
+<h2 class="section-heading">How Events Work</h2>
+<div class="prose">
+<p>Aethrya's Dungeon Masters are the custodians of the world's living story. They do not script events from first scene to last — they prepare narrative frameworks, NPC rosters, and consequence trees, then follow wherever player agency leads. No prepared scene survives full contact with a player character who has decided to do something unexpected, and the DM team considers this a feature rather than a problem.</p>
+<p>Events fall into two categories. <strong>Reactive Events</strong> emerge organically from the world's ongoing storylines without requiring player initiation. <strong>Requested Events</strong> are submitted through the DM request channel, scheduled based on character mastery, request quality, and narrative fit with active arcs.</p>
+</div>
+<div class="card-grid">
+<div class="card"><span class="card-icon">⚡</span><div class="card-title">Reactive Events</div><div class="card-text">World-driven events triggered by ongoing faction developments, seasonal story arcs, and the accumulated weight of player choices. These arrive without announcement and reward active engagement with Aethrya's political landscape.</div></div>
+<div class="card"><span class="card-icon">📜</span><div class="card-title">Requested Events</div><div class="card-text">Player-submitted events focused on specific characters, relationships, or story threads. Include the characters involved, the narrative question you want addressed, and what outcomes you are genuinely open to. Outcomes are never guaranteed.</div></div>
+<div class="card"><span class="card-icon">🌍</span><div class="card-title">World Events</div><div class="card-text">Server-wide events with consequences affecting all players regardless of participation. These advance the season storyline and may permanently alter the world map, faction standings, or available character options.</div></div>
+<div class="card"><span class="card-icon">🎯</span><div class="card-title">Mastery Events</div><div class="card-text">Required for Adept and Master mastery transitions. The DM team presents challenges specific to your class and character arc, and assesses whether the mastery threshold has been genuinely met.</div></div>
+</div>
+<h2 class="section-heading">Requesting an Event</h2>
+<div class="prose">
+<p>Submit DM event requests through <strong>#dm-requests</strong> in Discord. A strong request includes: the characters who should be present, a brief summary of the story thread you want to advance, the narrative question you want the event to engage with, and a genuine openness to outcomes you did not anticipate. Requests that specify a desired outcome in precise detail receive lower priority than requests that specify a desired question. The DM team schedules events within two weeks of approval.</p>
+</div>
+<div class="lore-block" data-label="What Makes a Good Request">
+<p><strong>Good:</strong> "Vaerin has been following the lead from the mercenary camp — I want an event where she finally meets the officer who gave the order. I'm open to anything, including it going badly."<br/><br/>
+<strong>Less good:</strong> "I want my character to find out who Aldric Brand really is and get proof they can share with the Veilbreakers."</p>
+</div>
+<h2 class="section-heading">During an Event</h2>
+<div class="prose">
+<p>DM events follow standard Aethrya emote format. The DM plays NPCs and narrates environmental developments; players control only their own characters. Dice rolls are called by the DM and resolved publicly. Consequences established in a DM event are permanent unless the DM explicitly frames a consequence as reversible. Characters who die in DM events follow the standard permadeath procedure.</p>
+</div>
+</div>
+
+          <footer class="pager">
+            <a href="staff.html" class="pager__link">← Staff Structure</a>
+            <a href="rules-general.html" class="pager__link">General Rules →</a>
+          </footer>
+        </article>
+        <aside class="toc" id="toc"><div class="toc__inner"><h2>On this page</h2><nav id="tocNav"></nav></div></aside>
+      </div>
+      <footer class="site-footer">Aethrya Lore Wiki · Refactored static edition · <span id="year"></span></footer>
+    </main>
+  </div>
+  <script>window.__PAGE_META__ = {"slug": "dm-guide", "title": "Dungeon Master Guide", "label": "Guides"};</script>
+  <script src="app.js"></script>
+</body>
+</html>
